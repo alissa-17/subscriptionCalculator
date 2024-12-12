@@ -6,7 +6,7 @@ var subType = "basic";
 var subDuration = 1;
 
 subTypeElement.addEventListener("change", function (e) {
-    subtype = e.target.value;
+    subType = e.target.value;
    // console.log(subType);
    updateSubscriptionDiv();
 });
